@@ -1,14 +1,14 @@
 package com.nav.Basic;
 
-public class DefaultCon {
+public class DefaultParameter {
     private  int id;
     private String name;
 
-    DefaultCon(){
+    DefaultParameter(){
         System.out.println("Default constructor");
     }
 
-    public  DefaultCon(int i, String n) {
+    public DefaultParameter(int i, String n) {
         id=i;
         name=n;
     }
@@ -19,8 +19,8 @@ public class DefaultCon {
 
 
     public static void main(String[] args) {
-        DefaultCon d=new DefaultCon();
-        DefaultCon d1=new DefaultCon(3,"Anil");
+        DefaultParameter d=new DefaultParameter();
+        DefaultParameter d1=new DefaultParameter(3,"Anil");
         d1.display();
     }
 
