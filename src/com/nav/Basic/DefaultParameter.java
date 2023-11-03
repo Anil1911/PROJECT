@@ -19,9 +19,9 @@ public class DefaultParameter {
 
 
     public static void main(String[] args) {
-        DefaultParameter d=new DefaultParameter();
-        DefaultParameter d1=new DefaultParameter(3,"Anil");
-        d1.display();
+        DefaultParameter defaultParameter=new DefaultParameter();
+        DefaultParameter defaultParameter1=new DefaultParameter(3,"Anil");
+        defaultParameter1.display();
     }
 
 }
