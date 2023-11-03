@@ -1,3 +1,5 @@
+package com.nav.Example;
+
 public class MinArrayElement {
 
     public static void main(String[] args) {

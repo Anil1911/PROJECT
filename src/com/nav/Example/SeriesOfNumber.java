@@ -1,3 +1,5 @@
+package com.nav.Example;
+
 import java.util.Scanner;
 
 public class SeriesOfNumber {
