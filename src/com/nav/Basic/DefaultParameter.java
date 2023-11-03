@@ -42,10 +42,10 @@ class MyClass {
 
 public class DefaultParameter {
     public static void main(String[] args) {
-        // Creating an object using the constructor and storing the reference in a variable
+
         MyClass myObject = new MyClass(42);
 
-        // Accessing the object's state using methods
+
         int objectNumber = myObject.getNumber();
         System.out.println("Number retrieved from the object: " + objectNumber);
     }
