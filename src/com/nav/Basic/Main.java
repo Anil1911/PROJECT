@@ -1,4 +1,4 @@
-package com.nav.Example;
+package com.nav.Basic;
 
 public class Main {
     public static void main(String[] args) {
