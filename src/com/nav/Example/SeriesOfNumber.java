@@ -9,8 +9,8 @@ public class SeriesOfNumber {
         System.out.println("Enter the n value :");
         int n=s.nextInt();
         for(int i=0;i<n;i++){
-            if(i%5 ==0)
+            if(i%5 ==0){
             System.out.println(i);
         }
-    }
+    }}
 }
